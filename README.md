@@ -19,20 +19,6 @@ A detailed report summarizing the work can be found [here](Milestone%201.pdf).
 
 - **notebooks/**: Jupyter notebooks for data preparation and model experimentation. ( empty for now )
 
-### How to Run
-
-1. **Set Up Environment:**
-   - Create and activate a virtual environment.
-   - Install dependencies:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-2. **Run the App:**
-   - Navigate to the `deployments` folder and run:
-     ```bash
-     streamlit run app.py
-     ```
 
 ### References
 - Hugging Face Model Hub: [DistilGPT2](https://huggingface.co/distilgpt2)
