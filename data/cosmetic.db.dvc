@@ -1,0 +1,5 @@
+outs:
+- md5: dbfca8dd1affa123e0c893a447792e52
+  size: 1474560
+  hash: md5
+  path: cosmetic.db
