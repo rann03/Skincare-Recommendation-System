@@ -3,10 +3,10 @@ import pandas as pd
 file_path = '/Users/amalayrania/Desktop/Skincare/data/cosmetics.csv'
 df = pd.read_csv(file_path)
 
-# Debugging: Print column names to confirm
+
 print(df.columns)
 
-# Strip spaces from column names
+
 df.columns = df.columns.str.strip()
 
 

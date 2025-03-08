@@ -1,0 +1,4 @@
+project: skincare_recommender
+registry: data/feature_store.db  
+provider: local 
+online_store: sqlite:///data/online_store.db

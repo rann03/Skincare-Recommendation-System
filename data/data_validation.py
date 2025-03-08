@@ -1,7 +1,10 @@
 import pandas as pd
+import os
 import sqlite3
 
-conn = sqlite3.connect("cosmetic.db")
+db_path = os.path.abspath("/Users/amalayrania/Desktop/Skincare/data/cosmetic.db")
+
+conn = sqlite3.connect(db_path)
 df = pd.read_sql_query("SELECT * FROM preprocessed_cosmetic", conn)
 conn.close()
 
