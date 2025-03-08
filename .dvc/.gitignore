@@ -1,8 +1,0 @@
-/.dvc/cache/
-/.dvc/tmp/
-*.log
-*.tmp
-*.bak
-venv/
-env/
-service_account.json
