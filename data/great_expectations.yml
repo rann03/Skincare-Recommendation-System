@@ -1,0 +1,43 @@
+datasources:
+  cosmetic_datasource:
+    class_name: SqlAlchemyDatasource
+    data_asset_type:
+      class_name: SqlAlchemyDataset
+      module_name: great_expectations.dataset
+    batch_kwargs_generators:
+      cosmetic_batch_kwargs_generator:
+        class_name: SqlAlchemyBatchKwargsGenerator
+        module_name: great_expectations.datasource.batch_kwargs_generator.sqlalchemy
+    sqlalchemy_connection_string: sqlite:///cosmetic.db
+
+expectation_suites:
+  cosmetic_expectation_suite:
+    expectations:
+      - expectation_type: expect_column_to_exist
+        kwargs:
+          column: Brand
+      - expectation_type: expect_column_to_exist
+        kwargs:
+          column: Name
+      - expectation_type: expect_column_to_exist
+        kwargs:
+          column: Price
+      - expectation_type: expect_column_to_exist
+        kwargs:
+          column: Rank
+      - expectation_type: expect_column_values_to_be_of_type
+        kwargs:
+          column: Price
+          type_: int
+      - expectation_type: expect_column_values_to_be_of_type
+        kwargs:
+          column: Rank
+          type_: int
+      - expectation_type: expect_column_values_to_be_of_type
+        kwargs:
+          column: Brand
+          type_: object
+      - expectation_type: expect_column_values_to_be_of_type
+        kwargs:
+          column: Name
+          type_: object
