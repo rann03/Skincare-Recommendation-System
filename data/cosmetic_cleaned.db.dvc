@@ -1,0 +1,5 @@
+outs:
+- md5: 4aeecdfeb148fd442f90c52436797aed
+  size: 131072
+  hash: md5
+  path: cosmetic_cleaned.db
