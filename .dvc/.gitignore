@@ -1,6 +1,6 @@
-/cosmetic.db
-/cosmetics.csv
-/cosmetic_cleaned.db
+data/cosmetic.db
+data/cosmetics.csv
+data/cosmetic_cleaned.db
 /config.local
 /tmp
 /cache
