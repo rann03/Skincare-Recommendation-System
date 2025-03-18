@@ -3,6 +3,7 @@ from zenml.steps import step
 import subprocess
 import os
 from zenml.client import Client
+import dvc.api
 
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
