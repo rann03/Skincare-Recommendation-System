@@ -1,0 +1,5 @@
+outs:
+- md5: 35843cfc1cdeabad7f35d5dea904c724
+  size: 1149414
+  hash: md5
+  path: cosmetics.csv

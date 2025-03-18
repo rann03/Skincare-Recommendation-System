@@ -47,3 +47,5 @@ df.to_sql("preprocessed_cosmetic", conn, if_exists="replace", index=False)
 conn.close()
 
 print("\nData validation and cleaning completed.")
+
+

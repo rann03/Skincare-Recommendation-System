@@ -1,0 +1,122 @@
+[
+    {
+        "timestamp": "2025-03-17T07:21:20",
+        "stage": "After Transformation",
+        "data_hash": "220e41d98c5c9f80cbe271afde6a754d",
+        "total_records": 6603
+    },
+    {
+        "timestamp": "2025-03-14T03:34:20",
+        "stage": "After Transformation",
+        "data_hash": "c1222225a4846b8e6521c9016222239d",
+        "total_records": 5667
+    },
+    {
+        "timestamp": "2025-03-13T05:09:20",
+        "stage": "Initial Load",
+        "data_hash": "cd21e362ff11017948ae467d8973dafc",
+        "total_records": 6834
+    },
+    {
+        "timestamp": "2025-03-11T12:54:20",
+        "stage": "Initial Load",
+        "data_hash": "c9b03dd6c76d1be0604a1e1925feb24e",
+        "total_records": 9858
+    },
+    {
+        "timestamp": "2025-03-16T23:50:20",
+        "stage": "After Transformation",
+        "data_hash": "e7611deda317b9cad1ab68c628eb67d5",
+        "total_records": 1198
+    },
+    {
+        "timestamp": "2025-03-13T06:29:20",
+        "stage": "After Transformation",
+        "data_hash": "fd54ecaab81cb350fe0e15bb3002429d",
+        "total_records": 2681
+    },
+    {
+        "timestamp": "2025-03-15T02:45:20",
+        "stage": "Initial Load",
+        "data_hash": "c4b328bfa353edb6c4ee94d3e72c61d7",
+        "total_records": 4898
+    },
+    {
+        "timestamp": "2025-03-16T02:20:20",
+        "stage": "After Validation",
+        "data_hash": "edaf16c8ce6478252ae2236e6d5c8dca",
+        "total_records": 4462
+    },
+    {
+        "timestamp": "2025-03-17T11:18:20",
+        "stage": "After Validation",
+        "data_hash": "4c12b4dcef8f74bf3e3f87b0815c63ca",
+        "total_records": 6713
+    },
+    {
+        "timestamp": "2025-03-13T00:13:20",
+        "stage": "After Validation",
+        "data_hash": "9fa6644772a005f11057ed261c52cfb1",
+        "total_records": 6142
+    },
+    {
+        "timestamp": "2025-03-17T07:42:53",
+        "stage": "After Cleaning",
+        "data_hash": "f1bd859fcc4a61365d065879ab2c4407",
+        "total_records": 9252
+    },
+    {
+        "timestamp": "2025-03-16T12:59:53",
+        "stage": "After Validation",
+        "data_hash": "870bd2d41b380f118a23ce7abfbc84b8",
+        "total_records": 7366
+    },
+    {
+        "timestamp": "2025-03-11T18:00:53",
+        "stage": "After Transformation",
+        "data_hash": "fdb9b4c29e75b2d5bc03c66e8b8a1090",
+        "total_records": 4836
+    },
+    {
+        "timestamp": "2025-03-11T20:24:53",
+        "stage": "Initial Load",
+        "data_hash": "b66b653891336325354ccc062aa5b195",
+        "total_records": 1966
+    },
+    {
+        "timestamp": "2025-03-15T19:50:53",
+        "stage": "After Transformation",
+        "data_hash": "a3e6f77d6509ab0e9f9b4fa02ea17db1",
+        "total_records": 1218
+    },
+    {
+        "timestamp": "2025-03-14T03:17:53",
+        "stage": "After Transformation",
+        "data_hash": "c44bcc1e70e6d1f9c3ceb934e5986196",
+        "total_records": 3590
+    },
+    {
+        "timestamp": "2025-03-17T10:12:53",
+        "stage": "After Cleaning",
+        "data_hash": "b7993e13d991aa412c2f1d92890741c8",
+        "total_records": 4829
+    },
+    {
+        "timestamp": "2025-03-13T14:49:53",
+        "stage": "After Cleaning",
+        "data_hash": "9d916d6763fef89576dcc4af4db1c68a",
+        "total_records": 7876
+    },
+    {
+        "timestamp": "2025-03-15T01:20:53",
+        "stage": "After Cleaning",
+        "data_hash": "1c24a50ea3c951f575af84091349dbee",
+        "total_records": 8714
+    },
+    {
+        "timestamp": "2025-03-14T13:26:53",
+        "stage": "After Validation",
+        "data_hash": "ddb41bfc2b5c0c8f16cf3c5bd07a52f9",
+        "total_records": 8303
+    }
+]

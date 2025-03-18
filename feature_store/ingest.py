@@ -10,3 +10,11 @@ store = FeatureStore(repo_path=".")
 store.apply([cosmetic_features])
 
 store.materialize_incremental(end_date=datetime.utcnow())
+
+
+
+
+
+
+
+
